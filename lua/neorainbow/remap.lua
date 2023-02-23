@@ -1,3 +1,4 @@
+vim.wo.number = true
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
@@ -18,5 +19,6 @@ vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, opts)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, opts)
+vim.keymap.set('n', '<leader>gg', vim.cmd.LazyGit)
 
 vim.keymap.set('n', '<leader>fb', function() vim.lsp.buf.format { async = true } end)

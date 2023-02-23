@@ -16,6 +16,11 @@ return require('packer').startup(function(use)
 	use({ "nvim-treesitter/nvim-treesitter" }, { run = ":TSUpdate" })
 
 	use('kdheepak/lazygit.nvim')
+
+	use {
+		"windwp/nvim-autopairs",
+		config = function() require("nvim-autopairs").setup {} end
+	}
 	use("folke/tokyonight.nvim")
 	use {
 		'nvim-tree/nvim-tree.lua',
