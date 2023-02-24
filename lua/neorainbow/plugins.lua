@@ -29,6 +29,8 @@ return require('packer').startup(function(use)
 		},
 		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
+	use('jose-elias-alvarez/null-ls.nvim')
+	use('MunifTanjim/prettier.nvim')
 	use { 'romgrk/barbar.nvim', requires = 'nvim-web-devicons' }
 	use {
 		'VonHeikemen/lsp-zero.nvim',
