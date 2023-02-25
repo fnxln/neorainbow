@@ -22,6 +22,12 @@ return require('packer').startup(function(use)
 		config = function() require("nvim-autopairs").setup {} end
 	}
 	use("folke/tokyonight.nvim")
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function()
+			vim.fn["mkdp#util#install"]()
+		end
+	})
 	use {
 		'nvim-tree/nvim-tree.lua',
 		requires = {
