@@ -200,6 +200,11 @@ _G.packer_plugins = {
     path = "/home/lin/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
+  ["startup.nvim"] = {
+    loaded = true,
+    path = "/home/lin/.local/share/nvim/site/pack/packer/start/startup.nvim",
+    url = "https://github.com/startup-nvim/startup.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/lin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -209,6 +214,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lin/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["workspaces.nvim"] = {
+    loaded = true,
+    path = "/home/lin/.local/share/nvim/site/pack/packer/start/workspaces.nvim",
+    url = "https://github.com/natecraddock/workspaces.nvim"
   }
 }
 
