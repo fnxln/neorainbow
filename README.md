@@ -2,9 +2,9 @@
 
 This is my personal nvim config built on top o lua and packer.nvim
 
-
 ![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print.png)
-## Packages
+
+## Packages 
 
 | Packages                        | Name             | Purporse                      |
 | ------------------------------- | ---------------- | ----------------------------- |
@@ -19,3 +19,5 @@ This is my personal nvim config built on top o lua and packer.nvim
 | nvim-tree/nvim-tree.lua         | Nvim Tree        | Shows neet little tree        |
 | romgrk/barbar.nvim              | BarBar           | Tabs here we go               |
 | VonHeikemen/lsp-zero.nvim       | LSP              | Autocomplete vscode           |
+| startup-nvim/startup.nvim       | Startup          | A neat little splash screen   |
+
