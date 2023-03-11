@@ -4,7 +4,7 @@ This is my personal nvim config built on top o lua and packer.nvim
 
 ![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print.png)
 
-## Packages 
+## Packages
 
 | Packages                        | Name             | Purporse                      |
 | ------------------------------- | ---------------- | ----------------------------- |
@@ -20,4 +20,4 @@ This is my personal nvim config built on top o lua and packer.nvim
 | romgrk/barbar.nvim              | BarBar           | Tabs here we go               |
 | VonHeikemen/lsp-zero.nvim       | LSP              | Autocomplete vscode           |
 | startup-nvim/startup.nvim       | Startup          | A neat little splash screen   |
-
+| natecraddock/workspaces.nvim    | Workspaces       | Easy workspace swtich in nvim |

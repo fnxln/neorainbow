@@ -23,6 +23,9 @@ return require("packer").startup(function(use)
 			require("startup").setup()
 		end,
 	})
+	use({
+		"natecraddock/workspaces.nvim",
+	})
 
 	use({
 		"windwp/nvim-autopairs",
