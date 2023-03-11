@@ -3,6 +3,7 @@
 This is my personal nvim config built on top o lua and packer.nvim
 
 ![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print.png)
+![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print2.png)
 
 ## Packages
 
