@@ -2,15 +2,15 @@
 
 This is my personal nvim config built on top o lua and packer.nvim
 
-![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print.png)
 ![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print2.png)
+![](https://raw.githubusercontent.com/fnxln/neorainbow/main/print.png)
 
 ## Packages
 
 | Packages                        | Name             | Purporse                      |
 | ------------------------------- | ---------------- | ----------------------------- |
 | nvim-telescope/telescope.nvim   | Telescope        | Search stuff more easyly      |
-| andweeb/presence.nvim           | Presence.nvim    | Showt the presence on discord |
+| andweeb/presence.nvim           | Presence.nvim    | Show the presence on discord |
 | github/copilot.vim              | Github Copilot   | Ai programmer                 |
 | nvim-treesitter/nvim-treesitter | Treesitter       | Syntax hilighting             |
 | kdheepak/lazygit.nvim           | LazyGit          | Helps lazyGit                 |
